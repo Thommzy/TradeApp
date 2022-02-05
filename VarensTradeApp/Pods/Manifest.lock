@@ -1,0 +1,16 @@
+PODS:
+  - PTCardTabBar (1.0.2)
+
+DEPENDENCIES:
+  - PTCardTabBar
+
+SPEC REPOS:
+  trunk:
+    - PTCardTabBar
+
+SPEC CHECKSUMS:
+  PTCardTabBar: 9f94e31b447629aead75cd21cdaa6ae1f2c8bac6
+
+PODFILE CHECKSUM: 5b2baeefaa90d729de5d701eb86fd5a2d3515beb
+
+COCOAPODS: 1.11.2

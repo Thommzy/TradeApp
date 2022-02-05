@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="VarensButton" customModule="VarensTradeApp" customModuleProvider="target">
+            <connections>
+                <outlet property="rootView" destination="iN0-l3-epB" id="RDG-cM-KGV"/>
+                <outlet property="varensButton" destination="Kc5-OM-Gxf" id="Upd-qg-L6F"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="147" height="61"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3gc-Fm-11K" customClass="VarensView" customModule="VarensTradeApp" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="147" height="61"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kc5-OM-Gxf">
+                            <rect key="frame" x="0.0" y="0.0" width="147" height="61"/>
+                            <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="19"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Varens Btn"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="Kc5-OM-Gxf" secondAttribute="bottom" id="7zz-wz-AAJ"/>
+                        <constraint firstAttribute="trailing" secondItem="Kc5-OM-Gxf" secondAttribute="trailing" id="CF5-2f-WiW"/>
+                        <constraint firstItem="Kc5-OM-Gxf" firstAttribute="leading" secondItem="3gc-Fm-11K" secondAttribute="leading" id="Pvt-yW-01K"/>
+                        <constraint firstItem="Kc5-OM-Gxf" firstAttribute="top" secondItem="3gc-Fm-11K" secondAttribute="top" id="cDc-7I-Ri1"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="3gc-Fm-11K" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="3pG-4Z-d96"/>
+                <constraint firstAttribute="trailing" secondItem="3gc-Fm-11K" secondAttribute="trailing" id="aF0-aM-hEf"/>
+                <constraint firstItem="3gc-Fm-11K" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="hSt-b1-op7"/>
+                <constraint firstAttribute="bottom" secondItem="3gc-Fm-11K" secondAttribute="bottom" id="jXh-gO-fd0"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-379.23076923076923" y="-86.374407582938389"/>
+        </view>
+    </objects>
+</document>
