@@ -37,11 +37,11 @@ import UIKit
         let view = nib.instantiate(withOwner: self, options: nil)[0] as! UIView
         return view
     }
+    
     @IBAction func TimButtonAction(_ sender: UIButton) {
         guard let onClick = onClick else {
             return
         }
-
         onClick(varensButton.titleLabel?.text ?? String())
     }
 }

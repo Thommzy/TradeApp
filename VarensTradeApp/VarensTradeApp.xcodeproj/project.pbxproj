@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		222249D527B14BFF008A97CD /* CurrencyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 222249D427B14BFF008A97CD /* CurrencyView.xib */; };
+		222249D727B14CBF008A97CD /* CurrencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222249D627B14CBF008A97CD /* CurrencyView.swift */; };
 		224247C127AECB88001493E1 /* VarensButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 224247C027AECB88001493E1 /* VarensButton.xib */; };
 		224247C327AECB98001493E1 /* VarensButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224247C227AECB98001493E1 /* VarensButton.swift */; };
 		224247C627AEDA51001493E1 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224247C527AEDA51001493E1 /* ChartViewController.swift */; };
@@ -22,11 +24,27 @@
 		22AF901927AEB0B2007E4B5C /* VarensView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AF901827AEB0B2007E4B5C /* VarensView.swift */; };
 		22AF901B27AEB0D0007E4B5C /* VarensImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AF901A27AEB0D0007E4B5C /* VarensImageView.swift */; };
 		22AF901D27AEB380007E4B5C /* CALayer+ Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AF901C27AEB380007E4B5C /* CALayer+ Extension.swift */; };
+		22CDC1BE27B1865E003AA28D /* ExchangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CDC1BC27B1865E003AA28D /* ExchangeViewController.swift */; };
+		22CDC1BF27B1865E003AA28D /* ExchangeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22CDC1BD27B1865E003AA28D /* ExchangeViewController.xib */; };
+		22CDC1CA27B18F2F003AA28D /* BottomPopupUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CDC1C227B18F2E003AA28D /* BottomPopupUtils.swift */; };
+		22CDC1CB27B18F2F003AA28D /* BottomPopupTransitionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CDC1C327B18F2E003AA28D /* BottomPopupTransitionHandler.swift */; };
+		22CDC1CC27B18F2F003AA28D /* BottomPopupPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CDC1C427B18F2E003AA28D /* BottomPopupPresentationController.swift */; };
+		22CDC1CD27B18F2F003AA28D /* BottomPopupNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CDC1C527B18F2E003AA28D /* BottomPopupNavigationController.swift */; };
+		22CDC1CE27B18F2F003AA28D /* BottomPopupPresentAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CDC1C627B18F2E003AA28D /* BottomPopupPresentAnimator.swift */; };
+		22CDC1CF27B18F2F003AA28D /* BottomPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CDC1C727B18F2E003AA28D /* BottomPopupViewController.swift */; };
+		22CDC1D027B18F2F003AA28D /* BottomPopupDismissInteractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CDC1C827B18F2E003AA28D /* BottomPopupDismissInteractionController.swift */; };
+		22CDC1D127B18F2F003AA28D /* BottomPopupDismissAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CDC1C927B18F2F003AA28D /* BottomPopupDismissAnimator.swift */; };
+		22CDC1D727B1913D003AA28D /* ExChangeBottomCard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22CDC1D627B1913D003AA28D /* ExChangeBottomCard.storyboard */; };
+		22CDC1D927B1915F003AA28D /* ExChangeBottomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CDC1D827B1915F003AA28D /* ExChangeBottomViewController.swift */; };
+		22EE6DE527B103E200346C2E /* Env.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EE6DE427B103E200346C2E /* Env.swift */; };
+		22EE6DE727B1041500346C2E /* CandleStickModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EE6DE627B1041500346C2E /* CandleStickModel.swift */; };
 		30C7746FF8C1713BC5613C8F /* Pods_VarensTradeApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E61D7F8FE711B35A1C60CB9D /* Pods_VarensTradeApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0F98266BF60ED2A741EBD589 /* Pods-VarensTradeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VarensTradeApp.debug.xcconfig"; path = "Target Support Files/Pods-VarensTradeApp/Pods-VarensTradeApp.debug.xcconfig"; sourceTree = "<group>"; };
+		222249D427B14BFF008A97CD /* CurrencyView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CurrencyView.xib; sourceTree = "<group>"; };
+		222249D627B14CBF008A97CD /* CurrencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyView.swift; sourceTree = "<group>"; };
 		224247C027AECB88001493E1 /* VarensButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VarensButton.xib; sourceTree = "<group>"; };
 		224247C227AECB98001493E1 /* VarensButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VarensButton.swift; sourceTree = "<group>"; };
 		224247C527AEDA51001493E1 /* ChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
@@ -44,6 +62,20 @@
 		22AF901827AEB0B2007E4B5C /* VarensView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VarensView.swift; sourceTree = "<group>"; };
 		22AF901A27AEB0D0007E4B5C /* VarensImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VarensImageView.swift; sourceTree = "<group>"; };
 		22AF901C27AEB380007E4B5C /* CALayer+ Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer+ Extension.swift"; sourceTree = "<group>"; };
+		22CDC1BC27B1865E003AA28D /* ExchangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeViewController.swift; sourceTree = "<group>"; };
+		22CDC1BD27B1865E003AA28D /* ExchangeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExchangeViewController.xib; sourceTree = "<group>"; };
+		22CDC1C227B18F2E003AA28D /* BottomPopupUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomPopupUtils.swift; sourceTree = "<group>"; };
+		22CDC1C327B18F2E003AA28D /* BottomPopupTransitionHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomPopupTransitionHandler.swift; sourceTree = "<group>"; };
+		22CDC1C427B18F2E003AA28D /* BottomPopupPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomPopupPresentationController.swift; sourceTree = "<group>"; };
+		22CDC1C527B18F2E003AA28D /* BottomPopupNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomPopupNavigationController.swift; sourceTree = "<group>"; };
+		22CDC1C627B18F2E003AA28D /* BottomPopupPresentAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomPopupPresentAnimator.swift; sourceTree = "<group>"; };
+		22CDC1C727B18F2E003AA28D /* BottomPopupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomPopupViewController.swift; sourceTree = "<group>"; };
+		22CDC1C827B18F2E003AA28D /* BottomPopupDismissInteractionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomPopupDismissInteractionController.swift; sourceTree = "<group>"; };
+		22CDC1C927B18F2F003AA28D /* BottomPopupDismissAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomPopupDismissAnimator.swift; sourceTree = "<group>"; };
+		22CDC1D627B1913D003AA28D /* ExChangeBottomCard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ExChangeBottomCard.storyboard; sourceTree = "<group>"; };
+		22CDC1D827B1915F003AA28D /* ExChangeBottomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExChangeBottomViewController.swift; sourceTree = "<group>"; };
+		22EE6DE427B103E200346C2E /* Env.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Env.swift; sourceTree = "<group>"; };
+		22EE6DE627B1041500346C2E /* CandleStickModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandleStickModel.swift; sourceTree = "<group>"; };
 		5BC27060BAC185709C832AA3 /* Pods-VarensTradeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VarensTradeApp.release.xcconfig"; path = "Target Support Files/Pods-VarensTradeApp/Pods-VarensTradeApp.release.xcconfig"; sourceTree = "<group>"; };
 		E61D7F8FE711B35A1C60CB9D /* Pods_VarensTradeApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VarensTradeApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -68,6 +100,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		222249D327B14BDE008A97CD /* CurrencyView */ = {
+			isa = PBXGroup;
+			children = (
+				222249D427B14BFF008A97CD /* CurrencyView.xib */,
+				222249D627B14CBF008A97CD /* CurrencyView.swift */,
+			);
+			path = CurrencyView;
+			sourceTree = "<group>";
+		};
 		224247BF27AECB66001493E1 /* VarensButton */ = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +131,7 @@
 			children = (
 				2263871027AE5D0E001EDBB1 /* ViewController.swift */,
 				224247C427AEDA36001493E1 /* ChartViewController */,
+				22CDC1C027B18665003AA28D /* ExchangeViewController */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -152,6 +194,7 @@
 			isa = PBXGroup;
 			children = (
 				228C828C27AEEA49007A9348 /* StatModel.swift */,
+				22EE6DE627B1041500346C2E /* CandleStickModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -160,6 +203,7 @@
 			isa = PBXGroup;
 			children = (
 				22AF901C27AEB380007E4B5C /* CALayer+ Extension.swift */,
+				22EE6DE427B103E200346C2E /* Env.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -167,6 +211,8 @@
 		22AF901727AEB0A0007E4B5C /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
+				22CDC1C127B18F18003AA28D /* BottomPopupController */,
+				222249D327B14BDE008A97CD /* CurrencyView */,
 				224247BF27AECB66001493E1 /* VarensButton */,
 				22AF901827AEB0B2007E4B5C /* VarensView.swift */,
 				22AF901A27AEB0D0007E4B5C /* VarensImageView.swift */,
@@ -179,6 +225,32 @@
 			children = (
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		22CDC1C027B18665003AA28D /* ExchangeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				22CDC1BC27B1865E003AA28D /* ExchangeViewController.swift */,
+				22CDC1BD27B1865E003AA28D /* ExchangeViewController.xib */,
+				22CDC1D627B1913D003AA28D /* ExChangeBottomCard.storyboard */,
+				22CDC1D827B1915F003AA28D /* ExChangeBottomViewController.swift */,
+			);
+			path = ExchangeViewController;
+			sourceTree = "<group>";
+		};
+		22CDC1C127B18F18003AA28D /* BottomPopupController */ = {
+			isa = PBXGroup;
+			children = (
+				22CDC1C927B18F2F003AA28D /* BottomPopupDismissAnimator.swift */,
+				22CDC1C827B18F2E003AA28D /* BottomPopupDismissInteractionController.swift */,
+				22CDC1C527B18F2E003AA28D /* BottomPopupNavigationController.swift */,
+				22CDC1C627B18F2E003AA28D /* BottomPopupPresentAnimator.swift */,
+				22CDC1C427B18F2E003AA28D /* BottomPopupPresentationController.swift */,
+				22CDC1C327B18F2E003AA28D /* BottomPopupTransitionHandler.swift */,
+				22CDC1C227B18F2E003AA28D /* BottomPopupUtils.swift */,
+				22CDC1C727B18F2E003AA28D /* BottomPopupViewController.swift */,
+			);
+			path = BottomPopupController;
 			sourceTree = "<group>";
 		};
 		DA986707F162EA24D2BD9F23 /* Pods */ = {
@@ -250,11 +322,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22CDC1D727B1913D003AA28D /* ExChangeBottomCard.storyboard in Resources */,
 				224247C127AECB88001493E1 /* VarensButton.xib in Resources */,
 				2263871927AE5D11001EDBB1 /* LaunchScreen.storyboard in Resources */,
 				2263871627AE5D11001EDBB1 /* Assets.xcassets in Resources */,
 				2263871427AE5D0E001EDBB1 /* Main.storyboard in Resources */,
 				228C828927AEE874007A9348 /* StatTableViewCell.xib in Resources */,
+				22CDC1BF27B1865E003AA28D /* ExchangeViewController.xib in Resources */,
+				222249D527B14BFF008A97CD /* CurrencyView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,14 +384,27 @@
 			files = (
 				224247C327AECB98001493E1 /* VarensButton.swift in Sources */,
 				228C828827AEE874007A9348 /* StatTableViewCell.swift in Sources */,
+				22CDC1D127B18F2F003AA28D /* BottomPopupDismissAnimator.swift in Sources */,
 				2263871127AE5D0E001EDBB1 /* ViewController.swift in Sources */,
+				22CDC1D927B1915F003AA28D /* ExChangeBottomViewController.swift in Sources */,
+				22EE6DE727B1041500346C2E /* CandleStickModel.swift in Sources */,
 				22AF901B27AEB0D0007E4B5C /* VarensImageView.swift in Sources */,
 				2263870D27AE5D0E001EDBB1 /* AppDelegate.swift in Sources */,
+				22CDC1CF27B18F2F003AA28D /* BottomPopupViewController.swift in Sources */,
 				22AF901D27AEB380007E4B5C /* CALayer+ Extension.swift in Sources */,
+				22CDC1CE27B18F2F003AA28D /* BottomPopupPresentAnimator.swift in Sources */,
+				22CDC1CA27B18F2F003AA28D /* BottomPopupUtils.swift in Sources */,
 				224247C627AEDA51001493E1 /* ChartViewController.swift in Sources */,
+				222249D727B14CBF008A97CD /* CurrencyView.swift in Sources */,
+				22CDC1BE27B1865E003AA28D /* ExchangeViewController.swift in Sources */,
+				22CDC1D027B18F2F003AA28D /* BottomPopupDismissInteractionController.swift in Sources */,
+				22CDC1CB27B18F2F003AA28D /* BottomPopupTransitionHandler.swift in Sources */,
 				2263870F27AE5D0E001EDBB1 /* SceneDelegate.swift in Sources */,
+				22CDC1CD27B18F2F003AA28D /* BottomPopupNavigationController.swift in Sources */,
 				22AF901927AEB0B2007E4B5C /* VarensView.swift in Sources */,
 				228C828D27AEEA49007A9348 /* StatModel.swift in Sources */,
+				22EE6DE527B103E200346C2E /* Env.swift in Sources */,
+				22CDC1CC27B18F2F003AA28D /* BottomPopupPresentationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

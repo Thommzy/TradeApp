@@ -8,5 +8,8 @@ target 'VarensTradeApp' do
   # Pods for VarensTradeApp
 
   pod 'PTCardTabBar'
+  #pod 'Charts'
+  pod 'SnapKit', '~> 5.0.0'
+  pod 'SwiftCharts', '~> 0.6.5'
 
 end
