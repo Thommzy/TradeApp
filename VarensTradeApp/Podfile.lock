@@ -1,16 +1,24 @@
 PODS:
   - PTCardTabBar (1.0.2)
+  - SnapKit (5.0.1)
+  - SwiftCharts (0.6.5)
 
 DEPENDENCIES:
   - PTCardTabBar
+  - SnapKit (~> 5.0.0)
+  - SwiftCharts (~> 0.6.5)
 
 SPEC REPOS:
   trunk:
     - PTCardTabBar
+    - SnapKit
+    - SwiftCharts
 
 SPEC CHECKSUMS:
   PTCardTabBar: 9f94e31b447629aead75cd21cdaa6ae1f2c8bac6
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SwiftCharts: 2e755ea292f0b87d3e4b2c1eb5afc080a20cdc15
 
-PODFILE CHECKSUM: 5b2baeefaa90d729de5d701eb86fd5a2d3515beb
+PODFILE CHECKSUM: 8c83df494c906c78a69ef00b9da01897bbfa3c80
 
 COCOAPODS: 1.11.2
