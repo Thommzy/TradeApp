@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SwiftCharts
 
 protocol ChangeBtnDelegate: AnyObject {
     func changeBtnTapped()
@@ -14,6 +15,8 @@ protocol ChangeBtnDelegate: AnyObject {
 
 @IBDesignable class CurrencyView: UIView {
     
+    @IBOutlet weak var chartyView: UIView!
+    @IBOutlet weak var mainBackground: UIView!
     @IBOutlet var rootView: UIView!
     @IBOutlet weak var changeBtn: VarensButton!
     @IBOutlet weak var currencyImageView: UIImageView!
@@ -21,6 +24,9 @@ protocol ChangeBtnDelegate: AnyObject {
     @IBOutlet weak var amountLbl: UILabel!
     @IBOutlet weak var changeBtnView: UIView!
     @IBOutlet weak var amountsView: UIView!
+    @IBOutlet weak var coinLbl: UILabel!
+    
+    var chart: Chart!
     
     weak var delegate: ChangeBtnDelegate?
     var isViews: Bool = false

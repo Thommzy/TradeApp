@@ -11,5 +11,6 @@ target 'VarensTradeApp' do
   #pod 'Charts'
   pod 'SnapKit', '~> 5.0.0'
   pod 'SwiftCharts', '~> 0.6.5'
+  #pod 'SwiftChart'
 
 end
