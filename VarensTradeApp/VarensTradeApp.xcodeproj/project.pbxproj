@@ -36,6 +36,9 @@
 		22CDC1D127B18F2F003AA28D /* BottomPopupDismissAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CDC1C927B18F2F003AA28D /* BottomPopupDismissAnimator.swift */; };
 		22CDC1D727B1913D003AA28D /* ExChangeBottomCard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22CDC1D627B1913D003AA28D /* ExChangeBottomCard.storyboard */; };
 		22CDC1D927B1915F003AA28D /* ExChangeBottomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CDC1D827B1915F003AA28D /* ExChangeBottomViewController.swift */; };
+		22CDC1DB27B1AA00003AA28D /* CurrencyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CDC1DA27B1AA00003AA28D /* CurrencyModel.swift */; };
+		22CDC1DF27B1ACE3003AA28D /* ExchangeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CDC1DD27B1ACE3003AA28D /* ExchangeTableViewCell.swift */; };
+		22CDC1E027B1ACE3003AA28D /* ExchangeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22CDC1DE27B1ACE3003AA28D /* ExchangeTableViewCell.xib */; };
 		22EE6DE527B103E200346C2E /* Env.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EE6DE427B103E200346C2E /* Env.swift */; };
 		22EE6DE727B1041500346C2E /* CandleStickModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EE6DE627B1041500346C2E /* CandleStickModel.swift */; };
 		30C7746FF8C1713BC5613C8F /* Pods_VarensTradeApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E61D7F8FE711B35A1C60CB9D /* Pods_VarensTradeApp.framework */; };
@@ -74,6 +77,9 @@
 		22CDC1C927B18F2F003AA28D /* BottomPopupDismissAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomPopupDismissAnimator.swift; sourceTree = "<group>"; };
 		22CDC1D627B1913D003AA28D /* ExChangeBottomCard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ExChangeBottomCard.storyboard; sourceTree = "<group>"; };
 		22CDC1D827B1915F003AA28D /* ExChangeBottomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExChangeBottomViewController.swift; sourceTree = "<group>"; };
+		22CDC1DA27B1AA00003AA28D /* CurrencyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyModel.swift; sourceTree = "<group>"; };
+		22CDC1DD27B1ACE3003AA28D /* ExchangeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeTableViewCell.swift; sourceTree = "<group>"; };
+		22CDC1DE27B1ACE3003AA28D /* ExchangeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExchangeTableViewCell.xib; sourceTree = "<group>"; };
 		22EE6DE427B103E200346C2E /* Env.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Env.swift; sourceTree = "<group>"; };
 		22EE6DE627B1041500346C2E /* CandleStickModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandleStickModel.swift; sourceTree = "<group>"; };
 		5BC27060BAC185709C832AA3 /* Pods-VarensTradeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VarensTradeApp.release.xcconfig"; path = "Target Support Files/Pods-VarensTradeApp/Pods-VarensTradeApp.release.xcconfig"; sourceTree = "<group>"; };
@@ -176,6 +182,7 @@
 		228C828527AEE84D007A9348 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				22CDC1DC27B1ACC2003AA28D /* ExchangeTableViewCell */,
 				228C828A27AEE87C007A9348 /* StatTableViewCell */,
 			);
 			path = Cells;
@@ -195,6 +202,7 @@
 			children = (
 				228C828C27AEEA49007A9348 /* StatModel.swift */,
 				22EE6DE627B1041500346C2E /* CandleStickModel.swift */,
+				22CDC1DA27B1AA00003AA28D /* CurrencyModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -251,6 +259,15 @@
 				22CDC1C727B18F2E003AA28D /* BottomPopupViewController.swift */,
 			);
 			path = BottomPopupController;
+			sourceTree = "<group>";
+		};
+		22CDC1DC27B1ACC2003AA28D /* ExchangeTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				22CDC1DD27B1ACE3003AA28D /* ExchangeTableViewCell.swift */,
+				22CDC1DE27B1ACE3003AA28D /* ExchangeTableViewCell.xib */,
+			);
+			path = ExchangeTableViewCell;
 			sourceTree = "<group>";
 		};
 		DA986707F162EA24D2BD9F23 /* Pods */ = {
@@ -326,6 +343,7 @@
 				224247C127AECB88001493E1 /* VarensButton.xib in Resources */,
 				2263871927AE5D11001EDBB1 /* LaunchScreen.storyboard in Resources */,
 				2263871627AE5D11001EDBB1 /* Assets.xcassets in Resources */,
+				22CDC1E027B1ACE3003AA28D /* ExchangeTableViewCell.xib in Resources */,
 				2263871427AE5D0E001EDBB1 /* Main.storyboard in Resources */,
 				228C828927AEE874007A9348 /* StatTableViewCell.xib in Resources */,
 				22CDC1BF27B1865E003AA28D /* ExchangeViewController.xib in Resources */,
@@ -384,6 +402,7 @@
 			files = (
 				224247C327AECB98001493E1 /* VarensButton.swift in Sources */,
 				228C828827AEE874007A9348 /* StatTableViewCell.swift in Sources */,
+				22CDC1DB27B1AA00003AA28D /* CurrencyModel.swift in Sources */,
 				22CDC1D127B18F2F003AA28D /* BottomPopupDismissAnimator.swift in Sources */,
 				2263871127AE5D0E001EDBB1 /* ViewController.swift in Sources */,
 				22CDC1D927B1915F003AA28D /* ExChangeBottomViewController.swift in Sources */,
@@ -399,6 +418,7 @@
 				22CDC1BE27B1865E003AA28D /* ExchangeViewController.swift in Sources */,
 				22CDC1D027B18F2F003AA28D /* BottomPopupDismissInteractionController.swift in Sources */,
 				22CDC1CB27B18F2F003AA28D /* BottomPopupTransitionHandler.swift in Sources */,
+				22CDC1DF27B1ACE3003AA28D /* ExchangeTableViewCell.swift in Sources */,
 				2263870F27AE5D0E001EDBB1 /* SceneDelegate.swift in Sources */,
 				22CDC1CD27B18F2F003AA28D /* BottomPopupNavigationController.swift in Sources */,
 				22AF901927AEB0B2007E4B5C /* VarensView.swift in Sources */,

@@ -21,7 +21,6 @@ class ExchangeViewController: UIViewController {
     }
     
     private func displayCard() {
-        print("show na")
         let storyBoard: UIStoryboard = UIStoryboard(name: "ExChangeBottomCard", bundle: nil)
         let exchangeBottomCardVc = storyBoard.instantiateViewController(withIdentifier: "ExChangeBottomViewController") as! ExChangeBottomViewController
         self.present(exchangeBottomCardVc, animated: true, completion: nil)

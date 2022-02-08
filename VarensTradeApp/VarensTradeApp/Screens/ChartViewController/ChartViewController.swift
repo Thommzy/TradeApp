@@ -97,8 +97,6 @@ class ChartViewController: UIViewController {
         }
         let dates = getDates(forLastNDays: 16)
         
-        print(date(dates[0]), displayFormatter,  "date(dates[0])")
-        
         let chartPoints = [
             ChartPointCandleStick(date: date(dates[0]), formatter: displayFormatter, high: 0, low: 0, open: 0, close: 0),
             ChartPointCandleStick(date: date(dates[1]), formatter: displayFormatter, high: 1620, low: 1380, open: 1520, close: 1400),
@@ -179,7 +177,6 @@ class ChartViewController: UIViewController {
             let dateString = dateFormatter.string(from: date)
             arrDates.append(dateString)
         }
-        print(arrDates, "arrDates--->>>>")
         return arrDates
     }
     
@@ -266,7 +263,6 @@ extension ChartViewController: ChangeBtnDelegate {
         let exchangeVc = ExchangeViewController(nibName: "ExchangeViewController", bundle: nil)
         exchangeVc.modalPresentationStyle = .fullScreen
         self.present(exchangeVc, animated: true, completion: nil)
-        print("Move My guy")
     }
 }
 
